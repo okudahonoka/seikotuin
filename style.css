@@ -3324,21 +3324,29 @@ Map Button
 
 .map-btn{
 
-    display:inline-block;
+    display:block;
 
-    margin-top:25px;
+    width:300px;
+
+    margin:35px auto 0;
+
+    padding:16px 30px;
 
     background:var(--main);
 
     color:#fff;
 
-    padding:15px 35px;
+    text-align:center;
 
     border-radius:50px;
 
-    font-weight:bold;
+    font-weight:600;
+
+    letter-spacing:.05em;
 
     transition:.3s;
+
+    box-shadow:0 10px 25px rgba(36,59,90,.15);
 
 }
 
@@ -3347,5 +3355,7 @@ Map Button
     background:var(--accent);
 
     transform:translateY(-3px);
+
+    box-shadow:0 15px 35px rgba(36,59,90,.2);
 
 }
