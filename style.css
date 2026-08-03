@@ -2495,41 +2495,27 @@ Hero
 
     padding:15px 38px;
 
-    border-radius:50px;
+    border:2px solid #fff;
 
-    transition:.35s;
-
-    font-weight:bold;
-
-}
-
-.btn:hover{
-
-    transform:translateY(-4px);
-
-}
-
-.btn{
-
-    display:inline-block;
-
-    padding:15px 38px;
-
-    background:var(--main);
+    background:transparent;
 
     color:#fff;
 
     border-radius:50px;
 
-    font-weight:bold;
+    font-weight:600;
 
     transition:.3s;
+
+    text-align:center;
 
 }
 
 .btn:hover{
 
-    background:var(--accent);
+    background:#fff;
+
+    color:var(--main);
 
     transform:translateY(-4px);
 
