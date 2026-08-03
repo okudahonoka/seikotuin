@@ -2509,19 +2509,29 @@ Hero
 
 }
 
-.btn.line{
+.btn{
 
-    background:#25D366;
+    display:inline-block;
 
-    color:#fff;
-
-}
-
-.btn.tel{
+    padding:15px 38px;
 
     background:var(--main);
 
     color:#fff;
+
+    border-radius:50px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    background:var(--accent);
+
+    transform:translateY(-4px);
 
 }
 
