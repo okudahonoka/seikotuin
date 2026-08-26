@@ -3345,3 +3345,196 @@ Map Button
     box-shadow:0 15px 35px rgba(36,59,90,.2);
 
 }
+
+/* ===================================
+   Smartphone
+=================================== */
+
+@media (max-width: 900px){
+
+    section{
+        padding:70px 0;
+    }
+
+    .container{
+        width:92%;
+    }
+
+    .header-inner{
+        height:75px;
+    }
+
+    .nav{
+        position:fixed;
+        top:75px;
+        right:-100%;
+        width:280px;
+        height:calc(100vh - 75px);
+        background:#fff;
+        transition:.35s;
+        padding:40px 30px;
+        box-shadow:-10px 0 30px rgba(0,0,0,.08);
+    }
+
+    .nav.active{
+        right:0;
+    }
+
+    .nav ul{
+        display:flex;
+        flex-direction:column;
+        gap:25px;
+    }
+
+    .reserve-btn{
+        display:none;
+    }
+
+    .hamburger{
+        display:flex;
+        width:42px;
+        height:42px;
+        border:none;
+        background:none;
+        flex-direction:column;
+        justify-content:center;
+        gap:7px;
+        cursor:pointer;
+    }
+
+    .hamburger span{
+        width:30px;
+        height:2px;
+        background:var(--main);
+    }
+
+    /* ヒーロー */
+    .hero{
+        padding-top:120px;
+        padding-bottom:80px;
+    }
+
+    .hero-inner{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .hero h1{
+        font-size:2.5rem;
+        line-height:1.45;
+        word-break:normal;
+        overflow-wrap:normal;
+    }
+
+    .hero-description{
+        font-size:.95rem;
+    }
+
+    /* グリッドを1列にする */
+    .problem-grid,
+    .reason-grid,
+    .treatment-grid{
+        grid-template-columns:1fr;
+    }
+
+    /* 院長・インソール */
+    .about-inner,
+    .insole-inner{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .section-title{
+        font-size:2rem;
+    }
+
+    .about-text h3{
+        font-size:1.7rem;
+    }
+
+    /* 診療時間 */
+    .time-table{
+        font-size:.85rem;
+        width:100%;
+    }
+
+    .time-table th,
+    .time-table td{
+        padding:12px 5px;
+    }
+
+    /* アクセス */
+    .access-box{
+        padding:30px 20px;
+    }
+
+    .map iframe{
+        height:300px;
+    }
+
+    /* Googleマップボタン */
+    .map-btn{
+        width:100%;
+        max-width:300px;
+        margin:30px auto 0;
+    }
+
+    /* CTA */
+    .cta h2{
+        font-size:1.8rem;
+    }
+
+    .hero-buttons,
+    .cta-buttons{
+        flex-direction:column;
+    }
+
+    .btn,
+    .more-btn{
+        width:100%;
+        text-align:center;
+    }
+
+}
+
+
+/* ===================================
+   Small Smartphone
+=================================== */
+
+@media (max-width:600px){
+
+    .container{
+        width:92%;
+    }
+
+    .hero h1{
+        font-size:2.3rem;
+        line-height:1.5;
+    }
+
+    .hero-description{
+        font-size:.95rem;
+    }
+
+    .section-title{
+        font-size:1.8rem;
+    }
+
+    .problem-card,
+    .reason-card,
+    .treatment-card{
+        padding:25px;
+    }
+
+    .time-table{
+        font-size:.75rem;
+    }
+
+    .time-table th,
+    .time-table td{
+        padding:10px 3px;
+    }
+
+}
