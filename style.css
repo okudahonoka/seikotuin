@@ -3569,3 +3569,9 @@ Map Button
     }
 
 }
+
+.header .logo img {
+    width: 100px !important;
+    max-width: 100px !important;
+    height: auto !important;
+}
