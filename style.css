@@ -3544,34 +3544,20 @@ Map Button
     height:auto;
 }
 
-@media (max-width:600px){
-
-    .logo img{
-        width:170px;
-    }
-
-}
-
-/* ロゴサイズ調整 */
-
-.header .logo img{
-    width:180px !important;
-    max-width:180px !important;
-    height:auto !important;
-    display:block;
-}
-
-@media (max-width:600px){
-
-    .header .logo img{
-        width:150px !important;
-        max-width:150px !important;
-    }
-
-}
+/* ヘッダーロゴ */
 
 .header .logo img {
-    width: 120px !important;
-    max-width: 120px !important;
-    height: auto !important;
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* スマホ */
+@media (max-width: 600px) {
+
+    .header .logo img {
+        width: 220px;
+    }
+
 }
