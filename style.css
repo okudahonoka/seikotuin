@@ -316,6 +316,17 @@ Hero
     transform:translateY(-3px);
 }
 
+btn.instagram{
+    background:transparent;
+    color:#fff;
+    border:2px solid #fff;
+}
+
+.btn.instagram:hover{
+    background:#fff;
+    color:var(--main);
+}
+
 .btn.tel{
 
     background:var(--main);
