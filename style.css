@@ -3551,3 +3551,17 @@ Map Button
     }
 
 }
+
+.logo img{
+    width:180px;
+    height:auto;
+    display:block;
+}
+
+@media (max-width:600px){
+
+    .logo img{
+        width:150px;
+    }
+
+}
