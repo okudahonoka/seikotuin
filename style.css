@@ -3547,7 +3547,7 @@ Map Button
 /* ヘッダーロゴ */
 
 .header .logo img {
-    width: 300px;
+    width: 330px;
     max-width: 100%;
     height: auto;
     display: block;
@@ -3557,7 +3557,7 @@ Map Button
 @media (max-width: 600px) {
 
     .header .logo img {
-        width: 220px;
+        width: 250px;
     }
 
 }
