@@ -299,6 +299,23 @@ Hero
 
 }
 
+.instagram-btn{
+    display:inline-block;
+    padding:12px 25px;
+    border:2px solid var(--main);
+    border-radius:50px;
+    color:var(--main);
+    font-weight:bold;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.instagram-btn:hover{
+    background:var(--main);
+    color:#fff;
+    transform:translateY(-3px);
+}
+
 .btn.tel{
 
     background:var(--main);
