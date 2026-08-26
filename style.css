@@ -3552,16 +3552,20 @@ Map Button
 
 }
 
-.logo img{
-    width:180px;
-    height:auto;
+/* ロゴサイズ調整 */
+
+.header .logo img{
+    width:180px !important;
+    max-width:180px !important;
+    height:auto !important;
     display:block;
 }
 
 @media (max-width:600px){
 
-    .logo img{
-        width:150px;
+    .header .logo img{
+        width:150px !important;
+        max-width:150px !important;
     }
 
 }
