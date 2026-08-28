@@ -3590,16 +3590,6 @@ Map Button
 
 }
 
-.btn.instagram{
-    display:block;
-    box-sizing:border-box;
-    background:transparent;
-    color:#fff;
-    border:2px solid #fff;
-    text-align:center;
-    margin-top:20px;
-}
-
 .btn.instagram:hover{
     background:#fff;
     color:var(--main);
