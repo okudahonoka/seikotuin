@@ -3792,3 +3792,55 @@ Map Button
     }
 
 }
+
+/* ==========================
+   ヘッダー調整
+=========================== */
+
+.header{
+    min-height:90px;
+}
+
+.header-inner{
+    min-height:90px;
+}
+
+.header .logo{
+    display:flex;
+    align-items:center;
+}
+
+.header .logo img{
+    width:220px !important;
+    max-width:220px !important;
+    height:auto !important;
+    display:block;
+}
+
+/* インソールページのタイトル */
+.insole-hero{
+    padding-top:90px;
+}
+
+
+/* スマホ */
+@media(max-width:600px){
+
+    .header{
+        min-height:75px;
+    }
+
+    .header-inner{
+        min-height:75px;
+    }
+
+    .header .logo img{
+        width:190px !important;
+        max-width:190px !important;
+    }
+
+    .insole-hero{
+        padding-top:60px;
+    }
+
+}
