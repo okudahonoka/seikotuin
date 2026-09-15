@@ -3848,3 +3848,383 @@ Map Button
  .insole-hero .cta-btn{
     margin-top:30px;
 }
+
+/* =========================================
+   症状・疾患ページ
+========================================= */
+
+.symptoms-hero{
+    background:#F7F3EC;
+    padding:100px 20px 90px;
+    text-align:center;
+    border-bottom:1px solid rgba(36,59,90,.08);
+}
+
+.symptoms-hero-inner{
+    max-width:900px;
+    margin:0 auto;
+}
+
+.symptoms-en{
+    color:#C7A66A;
+    font-size:14px;
+    letter-spacing:3px;
+    margin-bottom:15px;
+}
+
+.symptoms-hero h1{
+    color:#243B5A;
+    font-family:"Noto Serif JP",serif;
+    font-size:42px;
+    letter-spacing:.08em;
+    margin:0 0 20px;
+}
+
+.symptoms-hero p:last-child{
+    color:#243B5A;
+    font-size:16px;
+}
+
+
+/* breadcrumb */
+
+.symptoms-breadcrumb{
+    max-width:1100px;
+    margin:0 auto;
+    padding:25px 20px;
+    font-size:13px;
+    color:#777;
+}
+
+.symptoms-breadcrumb a{
+    color:#243B5A;
+    text-decoration:none;
+}
+
+.symptoms-breadcrumb span{
+    margin:0 8px;
+}
+
+
+/* intro */
+
+.symptoms-intro{
+    text-align:center;
+    padding:35px 20px 70px;
+    color:#333;
+    line-height:2;
+    font-size:15px;
+}
+
+.symptoms-intro p{
+    margin:0 0 10px;
+}
+
+
+/* section */
+
+.symptoms-section{
+    max-width:1000px;
+    margin:0 auto;
+    padding:20px 20px 100px;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:45px;
+}
+
+.section-title p{
+    color:#C7A66A;
+    font-size:13px;
+    letter-spacing:3px;
+    margin-bottom:8px;
+}
+
+.section-title h2{
+    color:#243B5A;
+    font-family:"Noto Serif JP",serif;
+    font-size:32px;
+    letter-spacing:.08em;
+    margin:0;
+}
+
+
+/* category */
+
+.symptom-category{
+    margin-bottom:12px;
+    border-radius:4px;
+    overflow:hidden;
+    background:#F7F3EC;
+}
+
+
+/* category button */
+
+.symptom-category-btn{
+    width:100%;
+    border:none;
+    background:#F7F3EC;
+    color:#243B5A;
+    padding:24px 30px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    font-family:"Noto Serif JP","Noto Sans JP",sans-serif;
+    font-size:20px;
+    letter-spacing:.08em;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.symptom-category-btn:hover{
+    background:#F0E9DD;
+}
+
+.symptom-icon{
+    color:#C7A66A;
+    font-family:Arial,sans-serif;
+    font-size:25px;
+    font-weight:300;
+}
+
+
+/* items */
+
+.symptom-items{
+    max-height:0;
+    overflow:hidden;
+    transition:max-height .35s ease;
+    background:#FCFAF6;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:0;
+}
+
+.symptom-item{
+    display:block;
+    padding:17px 30px;
+    color:#243B5A;
+    text-decoration:none;
+    font-size:15px;
+    border-top:1px solid rgba(36,59,90,.08);
+    transition:.3s;
+}
+
+.symptom-item:hover{
+    background:#F0E9DD;
+}
+
+.symptom-item span{
+    color:#C7A66A;
+    margin-right:12px;
+    font-size:18px;
+}
+
+
+/* CTA */
+
+.symptoms-cta{
+    background:#243B5A;
+    color:#fff;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.symptoms-cta-en{
+    color:#C7A66A;
+    letter-spacing:3px;
+    font-size:13px;
+    margin-bottom:15px;
+}
+
+.symptoms-cta h2{
+    font-family:"Noto Serif JP",serif;
+    font-size:27px;
+    line-height:1.8;
+    font-weight:500;
+    margin:0 0 35px;
+}
+
+.symptoms-cta-buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.symptoms-cta-btn{
+    display:inline-block;
+    min-width:220px;
+    padding:15px 25px;
+    border:1px solid #C7A66A;
+    background:#C7A66A;
+    color:#fff;
+    text-decoration:none;
+    letter-spacing:.08em;
+    transition:.3s;
+}
+
+.symptoms-cta-btn:hover{
+    opacity:.85;
+}
+
+.symptoms-cta-btn.outline{
+    background:transparent;
+}
+
+
+/* footer */
+
+.footer{
+    background:#F7F3EC;
+    color:#243B5A;
+    text-align:center;
+    padding:50px 20px 25px;
+}
+
+.footer-logo{
+    width:220px;
+    max-width:80%;
+    height:auto;
+    margin-bottom:20px;
+}
+
+.footer p{
+    line-height:1.8;
+    font-size:13px;
+}
+
+.footer .copyright{
+    margin-top:30px;
+    font-size:11px;
+    opacity:.7;
+}
+
+
+/* PC */
+
+.sp-only{
+    display:none;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media(max-width:600px){
+
+    .symptoms-hero{
+        padding:70px 20px 65px;
+    }
+
+    .symptoms-en{
+        font-size:12px;
+        letter-spacing:2.5px;
+    }
+
+    .symptoms-hero h1{
+        font-size:31px;
+        margin-bottom:15px;
+    }
+
+    .symptoms-hero p:last-child{
+        font-size:14px;
+    }
+
+
+    .symptoms-breadcrumb{
+        padding:18px 20px;
+        font-size:12px;
+    }
+
+
+    .symptoms-intro{
+        padding:25px 20px 55px;
+        font-size:14px;
+        line-height:2;
+    }
+
+    .sp-only{
+        display:block;
+    }
+
+
+    .symptoms-section{
+        padding:0 15px 70px;
+    }
+
+    .section-title{
+        margin-bottom:30px;
+    }
+
+    .section-title p{
+        font-size:11px;
+        letter-spacing:2.5px;
+    }
+
+    .section-title h2{
+        font-size:26px;
+    }
+
+
+    .symptom-category{
+        margin-bottom:8px;
+    }
+
+    .symptom-category-btn{
+        padding:20px 20px;
+        font-size:17px;
+    }
+
+    .symptom-icon{
+        font-size:23px;
+    }
+
+
+    .symptom-items{
+        grid-template-columns:1fr;
+    }
+
+    .symptom-item{
+        padding:15px 20px;
+        font-size:14px;
+    }
+
+
+    .symptoms-cta{
+        padding:60px 20px;
+    }
+
+    .symptoms-cta-en{
+        font-size:11px;
+    }
+
+    .symptoms-cta h2{
+        font-size:21px;
+        line-height:1.8;
+    }
+
+    .symptoms-cta-buttons{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .symptoms-cta-btn{
+        width:100%;
+        max-width:320px;
+        box-sizing:border-box;
+    }
+
+
+    .footer{
+        padding:40px 20px 20px;
+    }
+
+    .footer-logo{
+        width:190px;
+    }
+
+}
