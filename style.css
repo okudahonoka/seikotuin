@@ -4228,3 +4228,70 @@ Map Button
     }
 
 }
+
+/* =========================================
+   症状ページ レイアウト調整
+========================================= */
+
+.symptoms-hero{
+    padding:70px 20px 60px;
+}
+
+.symptoms-hero h1{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.symptoms-intro{
+    padding:35px 20px 45px;
+}
+
+.symptoms-section{
+    padding-top:10px;
+}
+
+.section-title{
+    margin-bottom:30px;
+}
+
+.symptom-category-btn{
+    font-size:20px;
+    padding:22px 28px;
+}
+
+
+/* PCで少し大きく見せる */
+@media(min-width:601px){
+
+    .symptoms-intro{
+        font-size:16px;
+    }
+
+    .symptom-category{
+        margin-bottom:10px;
+    }
+
+    .symptom-category-btn{
+        padding:24px 30px;
+        font-size:21px;
+    }
+
+}
+
+
+/* スマホ */
+@media(max-width:600px){
+
+    .symptoms-hero{
+        padding:55px 20px 45px;
+    }
+
+    .symptoms-hero h1{
+        font-size:30px;
+    }
+
+    .symptoms-intro{
+        padding:25px 20px 40px;
+    }
+
+}
