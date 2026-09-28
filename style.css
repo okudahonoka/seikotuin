@@ -4295,3 +4295,249 @@ Map Button
     }
 
 }
+
+/* =========================================
+   院長紹介
+========================================= */
+
+.director-section{
+    background:#fff;
+    padding:100px 20px;
+}
+
+.director-container{
+    max-width:1100px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    gap:70px;
+}
+
+
+/* 左側 */
+
+.director-text{
+    color:#243B5A;
+}
+
+.director-en{
+    color:#C7A66A;
+    font-size:13px;
+    letter-spacing:4px;
+    margin-bottom:15px;
+}
+
+.director-text h2{
+    font-family:"Noto Serif JP",serif;
+    font-size:42px;
+    font-weight:500;
+    letter-spacing:.08em;
+    margin:0 0 20px;
+}
+
+.director-line{
+    width:55px;
+    height:2px;
+    background:#C7A66A;
+    margin-bottom:30px;
+}
+
+.director-lead{
+    font-family:"Noto Serif JP",serif;
+    font-size:21px;
+    line-height:2;
+    letter-spacing:.05em;
+    margin-bottom:45px;
+}
+
+
+/* 名前 */
+
+.director-name{
+    display:flex;
+    align-items:baseline;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-bottom:25px;
+}
+
+.director-name span{
+    font-size:14px;
+}
+
+.director-name strong{
+    font-family:"Noto Serif JP",serif;
+    font-size:34px;
+    font-weight:500;
+}
+
+.director-name small{
+    color:#C7A66A;
+    font-size:13px;
+    letter-spacing:2px;
+}
+
+
+/* 資格 */
+
+.director-qualifications{
+    background:#F7F3EC;
+    padding:20px 25px;
+    margin:0;
+    list-style:none;
+}
+
+.director-qualifications li{
+    position:relative;
+    padding:5px 0 5px 22px;
+    font-size:14px;
+    line-height:1.7;
+}
+
+.director-qualifications li::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:13px;
+    width:8px;
+    height:8px;
+    background:#C7A66A;
+    border-radius:50%;
+}
+
+
+/* 写真 */
+
+.director-photo{
+    position:relative;
+}
+
+.director-photo img{
+    width:100%;
+    display:block;
+    aspect-ratio:4 / 5;
+    object-fit:cover;
+    object-position:center top;
+}
+
+
+/* ごあいさつ */
+
+.director-message{
+    max-width:1100px;
+    margin:80px auto 0;
+    padding:45px 55px;
+    background:#F7F3EC;
+    display:grid;
+    grid-template-columns:220px 1fr;
+    gap:45px;
+    align-items:start;
+}
+
+.director-message h3{
+    font-family:"Noto Serif JP",serif;
+    color:#243B5A;
+    font-size:28px;
+    font-weight:500;
+    margin:0;
+    padding-right:30px;
+    border-right:1px solid #C7A66A;
+}
+
+.director-message-text{
+    color:#243B5A;
+    font-size:14px;
+    line-height:2;
+}
+
+.director-message-text p{
+    margin:0 0 12px;
+}
+
+.director-message-text p:last-child{
+    margin-bottom:0;
+}
+
+
+/* スマホ */
+
+@media(max-width:600px){
+
+    .director-section{
+        padding:70px 20px;
+    }
+
+    .director-container{
+        display:flex;
+        flex-direction:column;
+        gap:40px;
+    }
+
+    .director-text{
+        order:1;
+    }
+
+    .director-photo{
+        order:2;
+    }
+
+    .director-en{
+        font-size:11px;
+        letter-spacing:3px;
+    }
+
+    .director-text h2{
+        font-size:30px;
+    }
+
+    .director-lead{
+        font-size:17px;
+        line-height:2;
+        margin-bottom:30px;
+    }
+
+    .director-name{
+        gap:10px;
+    }
+
+    .director-name strong{
+        font-size:27px;
+    }
+
+    .director-name small{
+        font-size:10px;
+    }
+
+    .director-qualifications{
+        padding:18px 20px;
+    }
+
+    .director-qualifications li{
+        font-size:13px;
+    }
+
+    .director-photo img{
+        aspect-ratio:1 / 1.15;
+    }
+
+    .director-message{
+        margin-top:50px;
+        padding:30px 25px;
+        display:block;
+    }
+
+    .director-message h3{
+        font-size:24px;
+        border-right:none;
+        border-bottom:1px solid #C7A66A;
+        padding:0 0 15px;
+        margin-bottom:25px;
+    }
+
+    .director-message-text{
+        font-size:13px;
+        line-height:2;
+    }
+
+}
