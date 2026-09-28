@@ -4534,3 +4534,26 @@ Map Button
     }
 
 }
+
+/* PC版：院長紹介と名前の位置だけ調整 */
+
+@media(min-width:601px){
+
+    .director-container{
+        align-items:start;
+    }
+
+    .director-title{
+        margin-bottom:20px;
+        padding-top:0;
+    }
+
+    .director-title h2{
+        margin-top:0;
+    }
+
+    .director-profile{
+        margin-top:-55px;
+    }
+
+}
