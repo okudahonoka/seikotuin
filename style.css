@@ -4302,57 +4302,68 @@ Map Button
 
 .director-section{
     background:#fff;
-    padding:100px 20px;
+    padding:80px 20px 100px;
 }
 
 .director-container{
-    max-width:1100px;
+    max-width:900px;
     margin:0 auto;
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    align-items:center;
-    gap:70px;
 }
 
 
-/* 左側 */
+/* タイトル */
 
-.director-text{
-    color:#243B5A;
+.director-title{
+    text-align:center;
+    margin-bottom:45px;
 }
 
 .director-en{
     color:#C7A66A;
     font-size:13px;
     letter-spacing:4px;
-    margin-bottom:15px;
+    margin:0 0 15px;
 }
 
-.director-text h2{
+.director-title h2{
+    color:#243B5A;
     font-family:"Noto Serif JP",serif;
     font-size:42px;
     font-weight:500;
     letter-spacing:.08em;
-    margin:0 0 20px;
+    margin:0;
 }
 
 .director-line{
     width:55px;
     height:2px;
     background:#C7A66A;
-    margin-bottom:30px;
+    margin:25px auto 0;
 }
 
-.director-lead{
-    font-family:"Noto Serif JP",serif;
-    font-size:21px;
-    line-height:2;
-    letter-spacing:.05em;
-    margin-bottom:45px;
+
+/* 写真 */
+
+.director-photo{
+    width:100%;
+    max-width:650px;
+    margin:0 auto 45px;
+}
+
+.director-photo img{
+    width:100%;
+    display:block;
+    aspect-ratio:4 / 5;
+    object-fit:cover;
 }
 
 
 /* 名前 */
+
+.director-profile{
+    max-width:650px;
+    margin:0 auto;
+}
 
 .director-name{
     display:flex;
@@ -4360,10 +4371,11 @@ Map Button
     gap:15px;
     flex-wrap:wrap;
     margin-bottom:25px;
+    color:#243B5A;
 }
 
 .director-name span{
-    font-size:14px;
+    font-size:15px;
 }
 
 .director-name strong{
@@ -4374,7 +4386,7 @@ Map Button
 
 .director-name small{
     color:#C7A66A;
-    font-size:13px;
+    font-size:12px;
     letter-spacing:2px;
 }
 
@@ -4390,16 +4402,16 @@ Map Button
 
 .director-qualifications li{
     position:relative;
-    padding:5px 0 5px 22px;
-    font-size:14px;
-    line-height:1.7;
+    padding:7px 0 7px 22px;
+    color:#243B5A;
+    font-size:15px;
 }
 
 .director-qualifications li::before{
     content:"";
     position:absolute;
     left:0;
-    top:13px;
+    top:15px;
     width:8px;
     height:8px;
     background:#C7A66A;
@@ -4407,42 +4419,23 @@ Map Button
 }
 
 
-/* 写真 */
-
-.director-photo{
-    position:relative;
-}
-
-.director-photo img{
-    width:100%;
-    display:block;
-    aspect-ratio:4 / 5;
-    object-fit:cover;
-    object-position:center top;
-}
-
-
 /* ごあいさつ */
 
 .director-message{
-    max-width:1100px;
-    margin:80px auto 0;
-    padding:45px 55px;
+    max-width:900px;
+    margin:70px auto 0;
+    padding:45px 50px;
     background:#F7F3EC;
-    display:grid;
-    grid-template-columns:220px 1fr;
-    gap:45px;
-    align-items:start;
 }
 
 .director-message h3{
-    font-family:"Noto Serif JP",serif;
     color:#243B5A;
+    font-family:"Noto Serif JP",serif;
     font-size:28px;
     font-weight:500;
-    margin:0;
-    padding-right:30px;
-    border-right:1px solid #C7A66A;
+    margin:0 0 25px;
+    padding-bottom:18px;
+    border-bottom:1px solid #C7A66A;
 }
 
 .director-message-text{
@@ -4452,7 +4445,7 @@ Map Button
 }
 
 .director-message-text p{
-    margin:0 0 12px;
+    margin:0 0 15px;
 }
 
 .director-message-text p:last-child{
@@ -4460,26 +4453,18 @@ Map Button
 }
 
 
-/* スマホ */
+/* =========================================
+   スマホ
+========================================= */
 
 @media(max-width:600px){
 
     .director-section{
-        padding:70px 20px;
+        padding:65px 20px 70px;
     }
 
-    .director-container{
-        display:flex;
-        flex-direction:column;
-        gap:40px;
-    }
-
-    .director-text{
-        order:1;
-    }
-
-    .director-photo{
-        order:2;
+    .director-title{
+        margin-bottom:35px;
     }
 
     .director-en{
@@ -4487,18 +4472,31 @@ Map Button
         letter-spacing:3px;
     }
 
-    .director-text h2{
-        font-size:30px;
+    .director-title h2{
+        font-size:31px;
     }
 
-    .director-lead{
-        font-size:17px;
-        line-height:2;
-        margin-bottom:30px;
+    .director-line{
+        margin-top:20px;
     }
+
+
+    .director-photo{
+        margin-bottom:35px;
+    }
+
+    .director-photo img{
+        aspect-ratio:4 / 5;
+    }
+
 
     .director-name{
-        gap:10px;
+        gap:8px;
+        margin-bottom:20px;
+    }
+
+    .director-name span{
+        font-size:14px;
     }
 
     .director-name strong{
@@ -4507,31 +4505,26 @@ Map Button
 
     .director-name small{
         font-size:10px;
+        letter-spacing:1.5px;
     }
+
 
     .director-qualifications{
         padding:18px 20px;
     }
 
     .director-qualifications li{
-        font-size:13px;
+        font-size:14px;
     }
 
-    .director-photo img{
-        aspect-ratio:1 / 1.15;
-    }
 
     .director-message{
         margin-top:50px;
         padding:30px 25px;
-        display:block;
     }
 
     .director-message h3{
         font-size:24px;
-        border-right:none;
-        border-bottom:1px solid #C7A66A;
-        padding:0 0 15px;
         margin-bottom:25px;
     }
 
