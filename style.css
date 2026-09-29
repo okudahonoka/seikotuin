@@ -4570,3 +4570,24 @@ Map Button
     object-fit:cover;
     object-position:center;
 }
+
+/* 電話するボタンをLINE・Instagramと統一 */
+.cta-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:14px 28px;
+    border:1px solid #fff;
+    border-radius:50px;
+    background:transparent;
+    color:#fff;
+    text-decoration:none;
+    font-size:15px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.cta-btn:hover{
+    background:#fff;
+    color:#243B5A;
+}
