@@ -4591,3 +4591,32 @@ Map Button
     background:#fff;
     color:#243B5A;
 }
+
+/* PC：電話するボタンを他のCTAと統一 */
+@media (min-width: 601px){
+
+    .cta-btn{
+        display:inline-flex !important;
+        align-items:center !important;
+        justify-content:center !important;
+
+        padding:14px 28px !important;
+
+        border:1px solid #fff !important;
+        border-radius:50px !important;
+
+        background:transparent !important;
+        color:#fff !important;
+
+        text-decoration:none !important;
+        font-size:15px !important;
+        font-weight:500 !important;
+
+        box-shadow:none !important;
+    }
+
+    .cta-btn:hover{
+        background:#fff !important;
+        color:#243B5A !important;
+    }
+}
