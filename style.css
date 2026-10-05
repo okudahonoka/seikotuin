@@ -4803,3 +4803,73 @@ Map Button
         bottom:18px;
     }
 }
+
+/* ==========================
+   HERO 最終調整
+========================== */
+
+.hero .hero-content{
+    position:relative;
+    z-index:10;
+    color:#fff !important;
+    text-align:center;
+}
+
+.hero .hero-subtitle{
+    color:#fff !important;
+}
+
+.hero .hero-content h1{
+    color:#fff !important;
+    font-size:clamp(42px, 5vw, 72px) !important;
+    line-height:1.45;
+    letter-spacing:0.08em;
+    text-shadow:0 3px 15px rgba(0,0,0,0.35);
+}
+
+.hero .hero-description{
+    color:#fff !important;
+}
+
+.hero .hero-message{
+    color:#fff !important;
+}
+
+.hero .hero-line{
+    background:#fff !important;
+}
+
+/* 写真を少し暗くして文字を見やすく */
+.hero .hero-overlay{
+    position:absolute;
+    inset:0;
+    z-index:1;
+
+    background:rgba(20,35,55,0.38) !important;
+}
+
+/* コンテンツを少し上へ */
+.hero .hero-content{
+    transform:translateY(-20px);
+}
+
+@media(max-width:600px){
+
+    .hero .hero-content{
+        transform:translateY(-10px);
+        padding:40px 20px 70px;
+    }
+
+    .hero .hero-content h1{
+        font-size:38px !important;
+        line-height:1.55;
+    }
+
+    .hero .hero-description{
+        font-size:14px;
+    }
+
+    .hero .hero-message{
+        font-size:12px;
+    }
+}
