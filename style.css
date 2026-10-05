@@ -4873,3 +4873,24 @@ Map Button
         font-size:12px;
     }
 }
+
+@media(max-width:600px){
+
+    .hero .hero-content{
+        transform:translateY(-10px);
+        padding:40px 20px 70px;
+    }
+
+    .hero .hero-content h1{
+        font-size:38px !important;
+        line-height:1.55;
+    }
+
+    .hero .hero-description{
+        font-size:14px;
+    }
+
+    .hero .hero-message{
+        font-size:12px;
+    }
+}
