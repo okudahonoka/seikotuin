@@ -4941,3 +4941,18 @@ Map Button
     position:relative;
     z-index:10;
 }
+
+.hero .hero-content h1{
+    white-space:nowrap;
+}
+
+@media(max-width:600px){
+
+    .hero .hero-content h1{
+        white-space:nowrap;
+        font-size:30px !important;
+        line-height:1.6;
+        letter-spacing:0.02em;
+    }
+
+}
