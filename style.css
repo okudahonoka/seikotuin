@@ -4629,7 +4629,7 @@ Map Button
     position:relative;
     min-height:calc(100vh - 90px);
 
-    background-image:url("images/clinic.jpg");
+    background-image:url("images/院内写真.jpg");
     background-size:cover;
     background-position:center;
 
