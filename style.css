@@ -5061,3 +5061,128 @@ Map Button
     }
 
 }
+
+/* =========================
+   下部固定CTA
+========================= */
+
+.fixed-cta{
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:9999;
+
+    display:flex;
+    justify-content:center;
+    gap:10px;
+
+    padding:10px 15px;
+    background:rgba(247,243,236,0.97);
+    box-shadow:0 -4px 15px rgba(0,0,0,0.12);
+}
+
+.fixed-cta a{
+    height:58px;
+    max-width:320px;
+    flex:1;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+
+    border-radius:10px;
+    text-decoration:none;
+
+    font-size:16px;
+    font-weight:600;
+    letter-spacing:.05em;
+
+    box-sizing:border-box;
+}
+
+/* 電話 */
+.fixed-cta-phone{
+    background:#E87519;
+    color:#fff;
+}
+
+.fixed-cta-phone:hover{
+    background:#d96812;
+    color:#fff;
+}
+
+.fixed-cta-text{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    line-height:1.2;
+}
+
+.fixed-cta-text strong{
+    font-size:16px;
+}
+
+.fixed-cta-text small{
+    margin-top:3px;
+    font-size:12px;
+    font-weight:400;
+    letter-spacing:.05em;
+}
+
+/* WEB予約 */
+.fixed-cta-web{
+    background:#243B5A;
+    color:#fff;
+}
+
+.fixed-cta-web:hover{
+    background:#1b2f49;
+    color:#fff;
+}
+
+.fixed-cta-icon{
+    font-size:22px;
+    line-height:1;
+}
+
+/* スマホ */
+@media(max-width:600px){
+
+    .fixed-cta{
+        gap:8px;
+        padding:8px 10px;
+    }
+
+    .fixed-cta a{
+        height:58px;
+        border-radius:8px;
+        font-size:14px;
+    }
+
+    .fixed-cta-phone{
+        flex:1.1;
+    }
+
+    .fixed-cta-web{
+        flex:0.9;
+    }
+
+    .fixed-cta-text strong{
+        font-size:14px;
+    }
+
+    .fixed-cta-text small{
+        font-size:11px;
+    }
+
+    .fixed-cta-icon{
+        font-size:20px;
+    }
+
+    /* 固定バーでページ下部が隠れないようにする */
+    body{
+        padding-bottom:75px;
+    }
+}
