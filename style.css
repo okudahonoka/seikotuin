@@ -4993,3 +4993,14 @@ Map Button
     margin:0 !important;
     padding:0 !important;
 }
+.hero .hero-content h1{
+    line-height:1.1 !important;
+    margin:0 !important;
+}
+
+.hero .hero-content h1 span{
+    display:block !important;
+    line-height:1.1 !important;
+    margin:0 !important;
+    padding:0 !important;
+}
