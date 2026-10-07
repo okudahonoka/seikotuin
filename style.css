@@ -4970,3 +4970,16 @@ Map Button
     margin-left:auto !important;
     margin-right:auto !important;
 }
+
+.hero .hero-content h1{
+    width:100% !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    text-align:center !important;
+}
+
+.hero .hero-content h1 span{
+    display:block !important;
+    width:100% !important;
+    text-align:center !important;
+}
