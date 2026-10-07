@@ -4983,3 +4983,13 @@ Map Button
     width:100% !important;
     text-align:center !important;
 }
+
+.hero .hero-content h1{
+    line-height:1.25 !important;
+}
+
+.hero .hero-content h1 span{
+    line-height:1.25 !important;
+    margin:0 !important;
+    padding:0 !important;
+}
